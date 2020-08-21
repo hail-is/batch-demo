@@ -35,11 +35,12 @@ to install Batch.
 5. Download the tar file containing the code and example data and unzip it.
 
 ```
-$ wget TODO
-$ tar -xvzf TODO
+$ wget https://github.com/hail-is/batch-demo/archive/master.zip
+$ unzip master.zip
+$ cd batch-demo-master/
 ```
 
-6. Open the batch-demo directory in a text editor such as Sublime, VSCode, emacs or vim.
+6. Open the `batch-demo-master` directory in a text editor such as Sublime, VSCode, emacs or vim.
 
 
 # Run LD-clumping in local mode
