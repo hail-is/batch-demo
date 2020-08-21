@@ -21,7 +21,7 @@ If you're really stuck: https://hail.is/docs/batch/cookbook/clumping.html
 $ docker version
 ```
 
-2. Make sure you've downloaded the Google SDK: https://cloud.google.com/sdk/install
+2. Make sure you've downloaded and installed the Google SDK: https://cloud.google.com/sdk/install
 
 3. Make sure you've authenticated Docker to use the Google Container Registry:
 
@@ -32,7 +32,7 @@ $ gcloud auth configure-docker
 4. Follow the [installation directions](https://hail.is/docs/batch/getting_started.html)
 to install Batch.
 
-5. Download the tar file containing the code and example data and unzip it.
+5. Download the zip file containing the code and example data and unzip it.
 
 ```
 $ wget https://github.com/hail-is/batch-demo/archive/master.zip
