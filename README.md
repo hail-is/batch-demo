@@ -132,8 +132,9 @@ $ docker tag batch-demo gcr.io/atgu-training/batch-demo-[USERNAME]
 $ docker push gcr.io/atgu-training/batch-demo-[USERNAME]
 ```
 
-8. Fill in the name of your Docker image that you pushed to GCR in the `demo.py` script. Also, fill in the
-name of your bucket where you want temporary files to be generated (BUCKET_NAME).
+8. Fill in the name of your Docker image that you pushed to GCR in the *demo.py* script. Also, fill in the
+name of your bucket where you want temporary files to be generated (BUCKET_NAME) and the name of the billing
+project 'atgu-welcome-workshop'.
 
 ```python3
     if args.local:
@@ -156,7 +157,7 @@ name of your bucket where you want temporary files to be generated (BUCKET_NAME)
                                     bucket=<BUCKET_NAME>)
 ```
 
-9. Run demo.py omitting the `--local` flag to execute the batch on the Hail Service. Fill in BUCKET_NAME with your bucket that you
+9. Run *demo.py* omitting the `--local` flag to execute the batch on the Hail Service. Fill in BUCKET_NAME with your bucket that you
 created in step 1.
 
 ```
