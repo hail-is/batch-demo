@@ -6,9 +6,9 @@ so as to only report the most significant, independent associations.
 Thank you to Nik Baya for generating the dataset we're going to use today.
 
 Resources:
-https://hail.is/docs/batch/tutorial.html
-https://hail.is/docs/batch/docker_resources.html
-https://hail.is/docs/batch/service.html
+- https://hail.is/docs/batch/tutorial.html
+- https://hail.is/docs/batch/docker_resources.html
+- https://hail.is/docs/batch/service.html
 
 If you're really stuck: https://hail.is/docs/batch/cookbook/clumping.html
 
